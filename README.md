@@ -22,8 +22,7 @@ For Baseline and Trivial models:
 
 
 For ML models:
-
-![image](https://user-images.githubusercontent.com/68809236/166614377-0b3d42c1-491b-4aac-b1b6-127bc543cdff.png)
+![image](https://user-images.githubusercontent.com/68809236/166614407-090f30f7-b196-4cde-8a11-075039c391cc.png)
 
 ## Conclusion
 We have implemented seven different machine learning models for classification of forest fires namely Trivial, Baseline, Support Vector Machine, Naive Bayes Classifier, Logistic Regression, Decision Tree and Artificial Neural Networks. We found that the best performing model from all of them was the Binary Tree Classifier which had an accuracy of 93.3% and F1 score of 0.9 on the test set. Since our dataset is highly imbalanced, the f1 score plays an important role. The train data contains 62.5% of Class Fire label i.e. label 1 and 37.5% of Class No Fire label i.e. label 0. The F1 score is the harmonic mean of precision and recall.
