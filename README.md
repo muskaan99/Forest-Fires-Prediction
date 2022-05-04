@@ -14,3 +14,10 @@ Decision Tree and Artificial Neural Networks to be able to find the best model t
 - Matpltlib
 - Seaborn
 - PyTorch
+
+
+## Conclusion
+We have implemented seven different machine learning models for classification of forest fires namely Trivial, Baseline, Support Vector Machine, Naive Bayes Classifier, Logistic Regression, Decision Tree and Artificial Neural Networks. We found that the best performing model from all of them was the Binary Tree Classifier which had an accuracy of 93.3% and F1 score of 0.9 on the test set. Since our dataset is highly imbalanced, the f1 score plays an important role. The train data contains 62.5% of Class Fire label i.e. label 1 and 37.5% of Class No Fire label i.e. label 0. The F1 score is the harmonic mean of precision and recall.
+The F1 score can range from 0 to 1. A score close to 0 indicates that the model is unable to classify points correctly and a score close to 1 indicates that the model is able to classify the points correctly. So, the F1 score of 0.9 shows that our Decision Tree model is able to classify Fire and No Fire. Only 3 days have been classified as False Negatives, as can be seen from the confusion matrix in Section 3.4.6. Further work can be done to bring this number down to zero, which is the ideal case. 
+
+We plan to work on extending our project by working on the problem of forest fires in California since each year California faces the problem of more than a dozen forest fires. We plan to collect data related to wind, region and climate from the past years which would be helpful in creating a model that can predict fires in this region. We can also extend the work to building an application that can provide real time prediction of forest fires.
